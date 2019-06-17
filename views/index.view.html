@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Formulario de Contacto</title>
+  </head>
+  <body>
+    <section class="container">
+        <div class="row justify-content-center mt-5 pt-5">
+            <div class="col-md-7">
+                <h1 class="display-4">Formulario de Contacto</h1>
+                <hr class="bg-info">
+                <p class="pb-0 mb-0 ">Te invitamos a contactarnos, te responderemos a la brevedad.</p>
+                <p class="text-danger small pt-0 mt-0">*Todos los campos son obligatorios</p>
+                <div class="alert alert-success d-none" id="messageOk">Correo enviado con éxito </div>
+                <div class="alert alert-danger d-none" id="messageError"></div>
+                <form action="" id="form-contact" >
+                    <div class="row form-group">
+                        <label for="name" class="col-form-label col-md-4">Nombre:</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" name="name" id="name" required>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="email" class="col-form-label col-md-4">Correo electrónico:</label>
+                        <div class="col-md-8">
+                            <input type="email" class="form-control" name="email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="message" class="col-form-label col-md-4">Mensaje:</label>
+                        <div class="col-md-8">
+                            <textarea rows="3" class="form-control" name="message" id="message" required></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-info" name="send">Enviar</button>
+                         
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/form.js"></script>
+  </body>
+</html>
